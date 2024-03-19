@@ -11,7 +11,9 @@ const addToCart = {
     removeBtn: '//android.widget.TextView[@text="Remove Item"]',
     addCartBtn: '//android.view.ViewGroup[@content-desc="Add To Cart button"]',
     cartBadge: '//android.view.ViewGroup[@content-desc="cart badge"]/android.widget.ImageView',
-    proceedBtn: '//android.widget.TextView[@text="Proceed To Checkout"]'
+    proceedBtn: '//android.widget.TextView[@text="Proceed To Checkout"]',
+    countamount: '//android.view.ViewGroup[@content-desc="counter amount"]',
+    
 }
 
 export default addToCart

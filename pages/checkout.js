@@ -1,4 +1,6 @@
 const checkout = {
+    loginText: '(//android.widget.TextView[@text="Login"])[1]',
+    checkoutText: '//android.widget.TextView[@text="Checkout"]',
     fullNameField: '//android.widget.EditText[@content-desc="Full Name* input field"]',
     address1Field: '//android.widget.EditText[@content-desc="Address Line 1* input field"]',
     address2Field: '//android.widget.EditText[@content-desc="Address Line 2 input field"]',

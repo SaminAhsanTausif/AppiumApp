@@ -13,6 +13,9 @@ const addToCart = {
     cartBadge: '//android.view.ViewGroup[@content-desc="cart badge"]/android.widget.ImageView',
     proceedBtn: '//android.widget.TextView[@text="Proceed To Checkout"]',
     countamount: '//android.view.ViewGroup[@content-desc="counter amount"]',
+    noItemsText: '//android.widget.TextView[@text="Oh no! Your cart is empty. Fill it up with swag to complete your purchase."]',
+    noItemsImage: '//android.widget.ScrollView[@content-desc="cart screen"]/android.view.ViewGroup/android.widget.ImageView',
+    shoppingBtn: '//android.view.ViewGroup[@content-desc="Go Shopping button"]'
     
 }
 
